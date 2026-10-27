@@ -19,6 +19,28 @@ from app.api import (
 # Initialize database schema
 Base.metadata.create_all(bind=engine)
 
+# Auto-seed database if empty (required for cloud deployments like Render)
+def ensure_seeded():
+    from app.database import SessionLocal
+    from app.models.models import User
+    from seed import seed_database
+    db = SessionLocal()
+    try:
+        user_count = db.query(User).count()
+        if user_count == 0:
+            print("[Startup] Database is empty. Seeding initial users, classes, and demo data...")
+            seed_database()
+            print("[Startup] Auto-seed complete.")
+    except Exception as e:
+        print(f"[Startup] Auto-seed check error: {e}")
+    finally:
+        db.close()
+
+try:
+    ensure_seeded()
+except Exception as e:
+    print(f"[Startup] Could not run ensure_seeded: {e}")
+
 app = FastAPI(
     title=settings.APP_NAME,
     description="VidyaSaathi: AI-Powered Personalized Learning Agent for Rural Students (SDG 4: Quality Education)",
