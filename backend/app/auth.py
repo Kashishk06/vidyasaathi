@@ -9,17 +9,22 @@ from app.config import settings
 from app.database import get_db
 from app.models.models import User
 
+import hashlib
+
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     try:
-        return pwd_context.verify(plain_password, hashed_password)
+        # Truncate plain_password to 71 chars to avoid bcrypt 72-byte bug
+        safe_pwd = plain_password[:71]
+        return pwd_context.verify(safe_pwd, hashed_password)
     except Exception:
         return False
 
 def get_password_hash(password: str) -> str:
-    return pwd_context.hash(password)
+    safe_pwd = password[:71]
+    return pwd_context.hash(safe_pwd)
 
 def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -> str:
     to_encode = data.copy()
