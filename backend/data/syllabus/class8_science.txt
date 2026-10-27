@@ -1,0 +1,22 @@
+# Class 8 General Science Syllabus
+
+## Chapter 1: Photosynthesis and Plant Nutrition
+Photosynthesis is the fundamental biological process by which green plants prepare their own food (glucose) using carbon dioxide, water, and sunlight in the presence of chlorophyll.
+Chemical equation: 6CO2 + 6H2O + Sunlight + Chlorophyll -> C6H12O6 + 6O2.
+Chlorophyll is the green pigment present inside chloroplasts in leaf cells that absorbs solar energy.
+Stomata are microscopic pores on the lower epidermis of leaves through which carbon dioxide enters and oxygen/water vapor exits.
+Roots absorb water and minerals from moist soil through xylem vessels via capillary action and transpiration pull.
+Phloem vessels transport synthesized sugars from leaves to all growing parts of the plant.
+Real-life rural context: Why neem and banyan trees stay lush green under intense summer sun, why farmers leave crop spacing for adequate sunlight, and why leaves turn yellow when kept in complete darkness.
+
+## Chapter 2: Force, Pressure, and Motion
+Force is an external push or pull upon an object resulting from its interaction with another object. Unit: Newton (N).
+Types of forces:
+1. Contact forces: Muscular force (bullock pulling a plough), Frictional force (resisting sliding motion on village dirt roads).
+2. Non-contact forces: Gravitational force (ripe mango falling to the ground), Magnetic force (iron filings drawn to a magnet), Electrostatic force.
+Friction: Friction opposes relative motion between surfaces in contact. It produces heat and causes wear and tear, but is essential for walking without slipping.
+Pressure is force acting per unit area: Pressure = Force / Area. Unit: Pascal (N/m^2).
+A sharp knife or iron spade cuts deeper because smaller surface area exerts higher pressure for the same applied force.
+Motion and Speed: Speed = Distance / Time (m/s or km/h).
+Balanced vs Unbalanced forces: Unbalanced forces cause changes in state of rest or direction of motion.
+Real-life rural context: Why tractor tires are made extra wide (to reduce pressure and prevent sinking into wet paddy fields), why village bullock carts have ball bearings in wheel hubs to reduce friction, and how hand pumps use atmospheric pressure to draw ground water.

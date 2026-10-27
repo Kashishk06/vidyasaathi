@@ -1,0 +1,36 @@
+# Class 8 Mathematics Syllabus
+
+## Chapter 1: Fractions and Rational Numbers
+Fractions represent equal parts of a whole or a collection. A fraction has a numerator (top number) and a denominator (bottom number).
+Addition and Subtraction of fractions require a common denominator. For example, 1/2 + 1/4 = 2/4 + 1/4 = 3/4.
+Multiplication of fractions: Multiply the numerators together and denominators together: (a/b) * (c/d) = (a*c) / (b*d).
+Division of fractions: Multiply the first fraction by the reciprocal (inverse) of the second fraction: (a/b) / (c/d) = (a/b) * (d/c).
+Real-life application: Dividing a field into equal plots for sowing wheat and pulses, or distributing 3 rotis equally among 4 children (each gets 3/4 roti).
+
+## Chapter 2: Percentages and Commercial Math
+A percentage is a number or ratio expressed as a fraction of 100 (symbol: %).
+To convert a fraction to a percentage, multiply by 100. For instance, 3/5 = (3/5) * 100 = 60%.
+To find percentage of a quantity: (Percentage / 100) * Quantity. For example, 15% of 200 quintals of grain = (15/100) * 200 = 30 quintals.
+Profit and Loss: Cost Price (CP) is the purchase price. Selling Price (SP) is the sale price.
+Profit = SP - CP (when SP > CP). Profit Percentage = (Profit / CP) * 100.
+Loss = CP - SP (when CP > SP). Loss Percentage = (Loss / CP) * 100.
+Discount: Reduction offered on the Marked Price (MP). Sale Price = Marked Price - Discount.
+Real-life application: Calculating profit after selling crops in the local mandi or calculating the discount on a bag of organic fertilizer.
+
+## Chapter 3: Algebra Basics and Simple Equations
+An algebraic expression consists of variables (unknown values represented by letters like x, y), constants (fixed numbers), and operations (+, -, *, /).
+A linear equation in one variable has the highest power of the variable as 1. General form: ax + b = c.
+Solving an equation means finding the value of the variable that makes the equation true.
+Rule of transposition: A term can be moved from one side of the equals sign to the other by changing its sign (+ becomes -, * becomes /).
+For example: 2x + 10 = 30 -> 2x = 30 - 10 = 20 -> x = 20 / 2 = 10.
+Real-life application: If Ramesh buys 2 bags of seeds and pays 10 rupees for bus fare totaling 50 rupees, the equation is 2x + 10 = 50, where x is the price per bag.
+
+## Chapter 4: Geometry Basics and Mensuration
+Perimeter is the total length of the outer boundary of a closed shape.
+Perimeter of rectangle = 2 * (length + breadth). Perimeter of square = 4 * side.
+Area is the amount of surface enclosed inside the boundary.
+Area of rectangle = length * breadth. Area of square = side * side. Area of triangle = (1/2) * base * height.
+Circles: Circumference = 2 * pi * r. Area of circle = pi * r^2, where r is radius and pi is approximately 22/7 or 3.14.
+Angles: Acute angle (< 90 degrees), Right angle (exactly 90 degrees), Obtuse angle (> 90 degrees and < 180 degrees).
+Sum of interior angles of a triangle is always 180 degrees. Sum of angles of a quadrilateral is 360 degrees.
+Real-life application: Fencing a rectangular agricultural plot with barbed wire (perimeter) or calculating how many square meters of plastic sheet are needed to cover a compost pit (area).

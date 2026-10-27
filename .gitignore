@@ -1,0 +1,27 @@
+﻿# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+.DS_Store
+
+# Python / Backend
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+*.py[cod]
+*.class
+backend/.pytest_cache/
+backend/venv/
+backend/.env
+.venv/
+env/
+
+# Databases
+*.db
+backend/vidyasaathi.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
