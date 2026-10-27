@@ -81,12 +81,33 @@ app.include_router(parent_router)
 
 @app.get("/", tags=["Health"])
 def health_check():
+    from app.database import SessionLocal
+    from app.models.models import User
     has_watsonx = bool(settings.WATSONX_API_KEY and settings.WATSONX_PROJECT_ID)
+    db = SessionLocal()
+    user_count = 0
+    try:
+        user_count = db.query(User).count()
+    except Exception:
+        pass
+    finally:
+        db.close()
+
     return {
         "project": "VidyaSaathi",
         "sdg_target": "SDG 4: Quality Education",
         "status": "online",
+        "users_in_db": user_count,
         "ai_engine": "IBM watsonx.ai (Granite)" if has_watsonx else "MockProvider (Offline Demo Mode)",
         "docs": "/docs",
         "supported_languages": ["hi", "en", "mr", "bn", "ta"]
     }
+
+@app.get("/seed-db", tags=["Seed"])
+def trigger_seed():
+    from seed import seed_database
+    try:
+        seed_database()
+        return {"status": "success", "message": "Database successfully seeded with demo accounts!"}
+    except Exception as e:
+        return {"status": "error", "detail": str(e)}
